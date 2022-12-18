@@ -8,7 +8,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="FontWeight" Value="ExtraLight"/>
-        <Setter Property="Foreground" Value="#B00B69"/>
+        <Setter Property="Foreground" Value="#F58078"/>
     </Style>
 
     <Style TargetType="{x:Type PasswordBox}" x:Key="BasicPasswordBox">
@@ -18,14 +18,16 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="FontWeight" Value="ExtraLight"/>
-        <Setter Property="Foreground" Value="#B00B69"/>
+        <Setter Property="Foreground" Value="#F58078"/>
     </Style>
 
     <Style TargetType="{x:Type TextBlock}" x:Key="BasicTextBlock">
         <Setter Property="Margin" Value="0 0 0 10"/>
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="FontWeight" Value="ExtraLight"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="Foreground" Value="#B00B69"/>
+        <Setter Property="Background" Value="LightGreen"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
     </Style>
 
     <Style TargetType="{x:Type Button}" x:Key="BasicButton">
@@ -34,6 +36,7 @@
         <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="Foreground" Value="#B00B69"/>
         <Setter Property="BorderBrush" Value="#B00B69"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
     </Style>
 
     <Style TargetType="{x:Type Button}" x:Key="PasswordButton">

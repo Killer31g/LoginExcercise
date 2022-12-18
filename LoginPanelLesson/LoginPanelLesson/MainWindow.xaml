@@ -24,6 +24,7 @@
                        HorizontalAlignment="Center"
                        FontSize="30"
                        FontWeight="ExtraLight" Foreground="#FF0F7DD8"
+                       Background="Orange"
                        />
         </StackPanel>
 
